@@ -1,0 +1,92 @@
+.header {
+    background: #00B1AB;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    font-size: 33px;
+    color: #FFF;
+    margin-top: 5px;
+}
+
+.logo {
+    width: 8%;
+    min-width: 100px;
+    margin: 0 13px;
+}
+
+.search {
+    width: 69%;
+}
+
+.search input {
+    width: 97%;
+    border-radius: 16px;
+    height: 38px;
+    background-color: #FFF;
+    border: 1px solid #dcdcdc;
+}
+
+.slide{
+    color: black;
+    font-size:  50px;
+    font-weight: bolder;
+}
+
+.nav{
+    height: 500px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#00B1AB;
+    overflow-x: hidden;
+    padding-top: 60px ;
+    transition: 0.7s;
+}
+.nav a{
+    display: block;
+    padding:20px 30px;
+    font-size: 25px;
+    text-decoration: none;
+    color:white;
+}
+
+.nav a :hover{
+    color: darkgray;
+    transition: 0.4s;
+}
+
+h3{
+    display: inline;
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    font-size: 30px;
+
+
+}
+
+.nav .close{
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: 50;
+}
+
+
+.a .fonticons{
+    margin-right: 13px;
+}
+
+.a:hover{
+    color: darkgray;
+    transition: 0.4s;
+}
+

@@ -1,0 +1,17 @@
+.card {
+    min-width: 200px;
+    width: 21%;
+    border: 1px solid #CCC;
+    border-radius: 7px;
+    margin: 0 10px 10px 0;
+    overflow: hidden;
+    box-shadow: 0 0px 3px 0px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+
+}
+
+.card img {
+    width: 100%;
+}

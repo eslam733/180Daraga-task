@@ -1,0 +1,20 @@
+.containerProduct {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.containerProduct .img {
+    width: 37%;
+}
+
+.containerProduct .img img {
+    width: 100%;
+}
+
+.containerProduct .details {
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}

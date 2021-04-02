@@ -1,0 +1,63 @@
+.primary {
+    text-transform: uppercase;
+    padding: 10px 39px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    color: #fff;
+    border-radius: 15px;
+    outline: none;
+    transition: all 0.5s;
+}
+
+.primary:hover {
+    text-transform: uppercase;
+    padding: 10px 39px;
+    background: #00B1AB;
+    color: #fff;
+    border-radius: 15px;
+    border-color: transparent;
+    outline: none;
+    transition: all 0.5s;
+}
+
+.second {
+    text-transform: uppercase;
+    padding: 10px 39px;
+    background: #00B1AB;
+    color: #fff;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    outline: none;
+    transition: all 0.5s;
+}
+
+.second:hover {
+    text-transform: uppercase;
+    padding: 10px 39px;
+    background: transparent;
+    border: 1px solid #00B1AB;
+    color: #00B1AB;
+    border-radius: 15px;
+    outline: none;
+    transition: all 0.5s;
+}
+
+.thrid {
+    text-transform: uppercase;
+    padding: 10px 39px;
+    background: #00B1AB;
+    color: #fff;
+    border: 1px solid transparent;
+    outline: none;
+    transition: all 0.5s;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.thrid:hover {
+    transform: scale(1.05);
+}
+
+.thrid:active {
+    transform: scale(0.8);
+}
